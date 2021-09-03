@@ -1,0 +1,1 @@
+$(document).ready(()=>{$('.faq-pergunta').on('click',()=>{if($('.faq-resposta').css('display')==='none'){$('.faq-resposta').slideDown();}else{$('.faq-resposta').slideUp();}});});
